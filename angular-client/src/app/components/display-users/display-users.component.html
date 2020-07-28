@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<div *ngIf = "users">
+<table class="table">
+<thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Actions</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let user of users">
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+        <td ><button class="btn btn-danger btn-xs" (click)="removeUser(user.id)">Delete</button></td>
+      </tr>
+</tbody>
+</table>
+</div>
+<div *ngIf="!users" class="card" #elseBlock><p> Seems that spring its not running. Nothing to consume. Please use this:
+    mvn spring-boot:run in the directory where is the spring boot api
+</p></div>
