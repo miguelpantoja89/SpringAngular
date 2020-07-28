@@ -13,4 +13,4 @@ If you try to run the front-end part will appear some errors due to git doesn't 
 > npm install
 .
 <br>
-to be able to use the previous command don't forget to install [Node.js](https://nodejs.org/es/)
+to be able to use the previous command don't forget to install Nodejs https://nodejs.org/es/
