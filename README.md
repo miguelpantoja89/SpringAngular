@@ -1,6 +1,8 @@
 # SpringAngular
-<hr>
-![Github](https://img.shields.io/badge/npm-v%206.14.5-blue)
+![Github](https://img.shields.io/badge/npm-%206.14.5-green)
+![Github](https://img.shields.io/badge/node-v12.18.2-blue)
+![APM](https://img.shields.io/apm/l/vim-mode)
+
 <hr>
 Simple CRUD application
 Angular client Front-End
