@@ -8,13 +8,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DisplayUsersComponent } from './components/display-users/display-users.component';
 import { RegistrerComponent } from './components/registrer/registrer.component';
+import { MyChartComponent } from './components/my-chart/my-chart.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     DisplayUsersComponent,
-    RegistrerComponent
+    RegistrerComponent,
+    MyChartComponent
   ],
   imports: [
     BrowserModule,
